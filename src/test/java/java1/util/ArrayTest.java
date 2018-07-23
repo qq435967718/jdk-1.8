@@ -14,7 +14,7 @@ public class ArrayTest {
     public void test() {
         ArrayList list = new ArrayList();
         list.add(new String("a"));
-        list.add(new String("b"));
+        list.add(new String("b"));//
         list.add(1, new String("c"));
         System.out.println("========================================" + list);
     }
